@@ -8,5 +8,20 @@
     margin: 0 auto;
 }
 header{
-    background-color: blueviolet;
+    background-color:black;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display:inline;
+}
+nav a{
+    padding: 0 0 0 15px;
+    font-size: 30px;
+    color: blueviolet;
+    text-decoration: none;
 }

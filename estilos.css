@@ -24,4 +24,40 @@ nav a{
     font-size: 30px;
     color: blueviolet;
     text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: lightgreen;
+    text-decoration:underline;
+}
+
+/*Estilos para la pagina Home*/
+
+.banner{
+    width: 100%;
+}
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+.titulo-principal{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:10px 0;
+    color: darkmagenta;
+    clear:left;
+}
+.principal p{
+    font-size: 20px;
+    margin: 0 0 1em;
+}
+.foto-grupal{
+    width:200px;
+    height: 180px;
+    float:left;
+    margin: 0 20px 20px 0;
 }

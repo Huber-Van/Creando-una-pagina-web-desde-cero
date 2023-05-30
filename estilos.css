@@ -1,0 +1,12 @@
+
+
+/*Estilos para el header*/
+
+.caja{
+    width:940;
+    position:relative;
+    margin: 0 auto;
+}
+header{
+    background-color: blueviolet;
+}

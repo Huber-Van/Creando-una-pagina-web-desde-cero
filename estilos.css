@@ -61,3 +61,16 @@ nav a:hover{
     float:left;
     margin: 0 20px 20px 0;
 }
+.mapa{
+    width:940px;
+    margin:10px auto;
+}
+.mapa p{
+    font-size: 20px;
+    margin:0 0 1em;
+    text-align: center;
+}
+.mapa-contenido{
+    width:940px;
+    margin:0 auto;
+}

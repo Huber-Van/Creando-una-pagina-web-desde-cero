@@ -37,6 +37,9 @@ nav a:hover{
 .banner{
     width: 100%;
 }
+.informacion{
+    background:linear-gradient(brown,pink);
+}
 .principal{
     width: 940px;
     margin: 0 auto;
@@ -47,7 +50,7 @@ nav a:hover{
     font-size: 25px;
     text-align: center;
     text-transform: uppercase;
-    margin:10px 0;
+    margin:20px 0;
     color: darkmagenta;
     clear:left;
 }
@@ -62,7 +65,7 @@ nav a:hover{
     margin: 0 20px 20px 0;
 }
 .mapa{
-    width:940px;
+    background:linear-gradient(pink,skyblue);
     margin:10px auto;
 }
 .mapa p{
@@ -74,3 +77,37 @@ nav a:hover{
     width:940px;
     margin:0 auto;
 }
+.instrumentos{
+    padding: 2em;
+    background: linear-gradient(skyblue, black);
+}
+.contenido-instrumentos{
+    width:640px;
+    margin:0 auto;
+}
+.lista-instrumentos{
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+}
+.items{
+    display:inline;
+    margin:0 20px ;
+    font-size: 22px;
+    font-weight: bold;
+}
+.logo-final{
+    text-align: center;
+    margin: 20px auto;
+}
+footer{
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+    text-align: center;
+}
+.referencias{
+    color: white;
+    padding:20px 0;
+}
+
+/*FALTA BORRAR ESPACIOS ENTRE SECCIONES*/

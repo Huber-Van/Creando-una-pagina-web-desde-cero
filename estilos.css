@@ -3,18 +3,17 @@
 /*Estilos para el header*/
 
 .caja{
-    width:940;
     position:relative;
     margin: 0 auto;
 }
 header{
     background-color:black;
     padding: 20px 0;
-}
+}   
 nav{
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: 160px;
+    right: 10%;
 }
 nav li{
     display:inline;
@@ -111,3 +110,19 @@ footer{
 }
 
 /*FALTA BORRAR ESPACIOS ENTRE SECCIONES*/
+
+
+/* Estilos de la hoja contactos*/
+form{
+    margin:40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.input-padron{
+    width: 50%;
+    display: block;
+    padding:10px 25px;
+}

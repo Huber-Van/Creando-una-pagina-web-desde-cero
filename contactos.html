@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>The script</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/logo2.png"></h1>
+                <ul>
+                    <nav>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Conciertos</a></li>
+                        <li><a href="contactos.html">contactos</a></li>
+                    </nav>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nombreApellido">Nombres y apellidos</label>
+                <input type="text" id="nombreApellido" class="input-padron" required>
+
+                <label for="correoElectronico">Correo electronico</label>
+                <input type="email" id="correoElectronico" class="input-padron" placeholder="email@dominio.com" required>
+
+                <label for="celular">Celular</label>
+                <input type="tel" id="celular" class="input-padron" placeholder="XXX-XXX-XXX" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+                <fieldset>
+                    <legend>¿Como le gustaria ser contactado?</legend>
+                    <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contactos"> Email</label>
+                    <label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono" name="contactos">Telefono</label>
+                    <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" value="whatsapp" name="contactos">Whatsapp</label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Horarios de atención</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>No deseo ser atendido</option>
+                    </select>
+                </fieldset>
+                <label><input type="checkbox" checked>¿Le gustaria recibir notificaciones?</label>
+                <input type="submit" class="enviar" value="enviar formulario">
+            </form>
+    
+        </main>
+        <footer>
+            <img width="300" height="200" src="imagenes/footer.jpg">
+            <p class="referencias">We love making memories</p>
+        </footer>
+    </body>

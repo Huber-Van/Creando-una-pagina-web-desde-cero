@@ -113,8 +113,10 @@ footer{
 
 
 /* Estilos de la hoja contactos*/
-form{
-    margin:40px 0;
+
+.todo-formulario{
+    width:940px;
+    margin:0 auto;
 }
 form label{
     display: block;
@@ -125,4 +127,28 @@ form label{
     width: 50%;
     display: block;
     padding:10px 25px;
+}
+.checkbox{
+    margin:20px 0;
+}
+.enviar{
+    width: 40%;
+    padding:15px 0;
+    background: skyblue;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1.5s all;
+    margin-left:75px;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+.enviar:hover{
+    background:lightgreen;
+    transform: scale(1.2);
+
 }
